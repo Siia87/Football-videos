@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 95px 1fr 200px;
+}
+
+body{
+  font-family: sans-serif;
+  margin:0;
+  background-image: url("gräs2.jpg");
+  overflow: hidden;
+}
+
+main {
+  overflow-y: scroll;
+  background-color:white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/*Header*/
+.top{
+  display: flex;
+  align-items: center;
+  place-content: center;
+  margin: 0;
+  background-color: rgb(49,49,49);
+}
+/* sidebars */
+#left-side, #right-side{
+  margin:0;
+}
+
+/*Video*/
+.video{
+  margin-top: 10px;
+}
+
+/*Next video*/
+article {
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+  border: 1.3px solid white;  
+}
+
+article:hover{
+  border: 1.3px solid green;
+  border-radius: 6px;
+}
+
+/*Video titel*/
+article h2{
+  margin: 0;
+  padding:0;
+  line-height: 1;
+  color:  rgb(49,49,49);
+}
+
+/*Video discription */
+article p{
+  margin: 0;
+  padding:0;
+  font-size: 0.6 rem;
+  font-style: italic;
+  color: lightgray;
+}
+
+/*Video info */
+#info {
+  padding: 8px 10px;
+}
+
+.picture{
+  height: 80px;
+  width: 150px;
+  border-radius: 2px;
+}
+
+iframe{
+  border-radius: 10px;
+}
