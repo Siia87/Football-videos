@@ -1,6 +1,6 @@
 
 /* Fetch call, getting data*/
-fetch('https://www.googleapis.com/youtube/v3/playlistItems' + '?playlistId=PLTa3QixZSIHRgPy5m1WxF2NnkUMxVwng2&key=AIzaSyAztb1u5Y2B9FI0D925_1hP46HlYPcPqPM&part=snippet&maxResults=20')
+fetch('https://www.googleapis.com/youtube/v3/playlistItems' + '?playlistId=PLTa3QixZSIHRgPy5m1WxF2NnkUMxVwng2&key=&part=snippet&maxResults=20')
   .then(response => response.json())
   .then(data => {
     console.log(data)
